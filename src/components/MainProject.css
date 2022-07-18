@@ -1,0 +1,88 @@
+.mainDiv{
+    background: #3BABAD;
+    /* height:100vh; */
+    display: inline-block;
+
+    /* border: 1px red solid; */
+}
+
+.projectCards {
+    display: grid;
+    grid-template-areas: "cardone cardtwo cardthree";
+    justify-items: center;
+    margin-bottom: 20px;
+  
+}
+
+.cardProjectOne {
+    grid-area: cardone;
+    width: 80%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    opacity: 0.9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cardProjectTwo {
+    grid-area: cardtwo;
+    width: 80%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    opacity: 0.9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cardProjectThree {
+    grid-area: cardthree;
+    width: 80%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    opacity: 0.9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.h1cards {
+    font-family: 'montserrat';
+    font-weight: 700;
+    color: #346a6c;
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.cardPara{
+    padding: 15px;
+    font-family: 'montserrat';
+    font-size: 14px;
+    min-height: 150px;
+    color: gray;
+}
+
+
+.cardBtn {
+background-color:grey ;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px;
+  font-weight: 800;
+  width: max-content;
+  align-self: center;
+ 
+}
+.cardSpan {
+    font-weight: 700;
+}
+
+.projectCards img {
+    width: 100%;
+}

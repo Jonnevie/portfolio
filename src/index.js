@@ -4,14 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { NavBar } from './components/navbar';
-import { PageOne } from './components/pageone';
+import { Projects } from './components/Projects';
+import ProjectOne from './components/ProjectOne';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <NavBar />
-    <App />
-    <PageOne />
+    {/* <App /> */}
+    {/* <Projects /> */}
+    {/* <ProjectOne /> */}
   </React.StrictMode>
 );
 
