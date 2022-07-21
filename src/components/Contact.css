@@ -19,7 +19,7 @@ main{
 }
 
 .h1contact{
-    font-family: 'montserrat';
+    /* font-family: 'montserrat'; */
     font-weight: 700;
     color: #3BABAD;
     font-size: 50px;
@@ -48,6 +48,12 @@ main{
   padding: 10px 20px;
   margin: 10px;
   font-weight: 800;
+  transition-duration: 0.3s;
   width: max-content;
   align-self: center;
+}
+
+.btncontact:hover{
+    background-color: #3BABAD;
+    color: white;
 }

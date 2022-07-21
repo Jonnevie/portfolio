@@ -1,43 +1,28 @@
-import React, { useState } from 'react';
-import './navbar.css';
-import { Projects } from './Projects';
-import App from '../App';
-import ProjectOne from './ProjectOne';
-import { MainProjectPage } from './MainProjectPage';
-import { Contact } from './Contact';
+import React, { useState } from "react";
+import "./navbar.css";
+import App from "../App";
+import { MainProjectPage } from "./MainProjectPage";
+import { Contact } from "./Contact";
+import { Route, Link } from "react-router-dom";
+import { Home } from "../Home";
 
-export function NavBar() {
+export function Navbar() {
+  return (
+    <div>
+      <nav>
+        <Link to="/Home" className="navlinks hover-underline-animation">
+          {" "}
+          HOME{" "}
+        </Link>
 
-const  [body, setBody] = useState(App());
+        <Link to="/MainProjectPage" className="navlinks hover-underline-animation" >
+          PROJECTS
+        </Link>
 
-const handleClickHome = (e) => {
-    setBody(App());
-    e.preventDefault();
+        <Link to="/Contact" className="navlinks hover-underline-animation">
+          CONTACT
+        </Link>
+      </nav>
+    </div>
+  );
 }
-const handleClickProjects = (e) => {
-    setBody(MainProjectPage())
-    e.preventDefault();
-}
-const handleClickContact = (e) => {
-    setBody(Contact())
-    e.preventDefault();
-}
-
-    return (
-        <div>
-            <nav>
-                <a className='navlinks' onClick={handleClickHome} href="/"> HOME</a> 
-                <a className='navlinks' onClick={handleClickProjects} href="/"> PROJECTS</a>
-                <a className='navlinks' onClick={handleClickContact} href="/"> CONTACT</a>
-            </nav>
-            <body>
-                { body }
-                </body>
-            </div>
-        )
-}
-
-        
-
-
-

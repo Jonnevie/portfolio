@@ -1,10 +1,10 @@
 
 
 #jonnevie{
-  font-family: 'montserrat';
   font-weight: 700;
   color: #347173;
-  font-size: 50px;
+  font-size: 60px;
+  margin-left: -20px;
 }
 
 #cheok{
@@ -13,11 +13,12 @@
 }
 
 #maintext {
-  font-family: 'montserrat';
   color: white;
   font-weight: 500;
+  display: flex;
+ 
 }
-.buttonDark{
+#buttonDark{
   background-color:#347173 ;
   border: none;
   border-radius: 20px;
@@ -25,11 +26,17 @@
   padding: 10px 20px;
   margin-top: 20px;
   font-weight: 800;
+  margin-left: -20px;
+  transition-duration: 0.3s;
+}
+
+#buttonDark:Hover{
+  background-color: white;
+  color: grey;
 }
 
 .App-header {
   width: 75%;
-  /* border: 1px solid red; */
   margin: auto;
   
 }
@@ -37,6 +44,39 @@
   background-color: #3BABAD;
   height: 80vh;
   display: flex;
+  flex-direction: column;
   box-sizing: border-box;
 
+}
+
+.typediv {
+width: fit-content;
+margin-top: -20px;
+font-size: 15px;
+margin-left: -20px;
+
+
+}
+
+.typewriter{
+  color: #fff;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /*se
+  letter-spacing: .1em; /* Adjust as needed */
+  animation: 
+    typing 6s steps(40, start),
+    blink-caret 1.25s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
 }
