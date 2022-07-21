@@ -1,28 +1,47 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import App from "../App";
 import { MainProjectPage } from "./MainProjectPage";
 import { Contact } from "./Contact";
-import { Route, Link } from "react-router-dom";
 import { Home } from "../Home";
 
+
 export function Navbar() {
+
+const [body, setBody] = useState(Home())
+
+const handleClickHome = (e) => {
+  setBody(Home());
+  e.preventDefault();
+}
+
+const handleClickProjects = (e) => {
+  setBody(MainProjectPage());
+  e.preventDefault();
+}
+
+const handleClickContact = (e) => {
+  setBody(Contact());
+  e.preventDefault();
+}
+
   return (
     <div>
       <nav>
-        <Link to="/Home" className="navlinks hover-underline-animation">
-          {" "}
-          HOME{" "}
-        </Link>
+        <a  onClick={handleClickHome} className="navlinks hover-underline-animation">
+          HOME
+        </a>
 
-        <Link to="/MainProjectPage" className="navlinks hover-underline-animation" >
+        <a  onClick={handleClickProjects} className="navlinks hover-underline-animation">
           PROJECTS
-        </Link>
+        </a>
 
-        <Link to="/Contact" className="navlinks hover-underline-animation">
+        <a  onClick={handleClickContact} className="navlinks hover-underline-animation">
           CONTACT
-        </Link>
+        </a>
       </nav>
+      <body>
+        {body}
+      </body>
     </div>
   );
 }

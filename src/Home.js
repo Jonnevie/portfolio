@@ -22,11 +22,8 @@ export function Home() {
           </p>
       </div>
           <a href="https://drive.google.com/file/d/1IQPmpkRlsgBFU6yrgUVYOj4rqEqR5Xp9/view?usp=sharing"><button id="buttonDark">Download CV</button> </a>
-          
+  
       </header>
-    
-      
-      
     </div>
   );
 }

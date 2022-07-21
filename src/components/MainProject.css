@@ -87,6 +87,7 @@ background-color:grey ;
   width: max-content;
   align-self: center;
   transition-duration: 0.3s;
+  cursor: pointer;
  
 }
 

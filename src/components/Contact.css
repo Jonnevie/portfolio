@@ -38,6 +38,7 @@ main{
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+   
 }
 .btncontact {
 
@@ -51,6 +52,7 @@ main{
   transition-duration: 0.3s;
   width: max-content;
   align-self: center;
+  cursor: pointer;
 }
 
 .btncontact:hover{

@@ -28,6 +28,7 @@
   font-weight: 800;
   margin-left: -20px;
   transition-duration: 0.3s;
+  cursor: pointer;
 }
 
 #buttonDark:Hover{
