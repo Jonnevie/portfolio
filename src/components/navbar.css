@@ -35,8 +35,21 @@ nav {
     transform-origin: bottom center;
     transition: transform 0.25s ease-out;
   }
-  
+
   .hover-underline-animation:hover:after {
     transform: scaleX(1);
     transform-origin: bottom center;
+  }
+
+  #isActiveHome{
+    color: #346a6c;
+
+  }
+
+  #isActiveProjects{
+    color: #346a6c;
+  }
+
+  #isActiveContact{
+    color: #346a6c;
   }

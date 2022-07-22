@@ -1,11 +1,14 @@
-import React from "react";
+import React, {setState} from "react";
 import Image1 from "./ProjOne.png";
 import Image2 from "./ProjTwo.png";
 import Image3 from "./ProjThree.png";
 import "./MainProject.css";
+import { Navbar } from "./navbar";
 import { Link } from "react-router-dom";
 
 export function MainProjectPage() {
+
+
 
   return (
     <div className="maincardDiv">

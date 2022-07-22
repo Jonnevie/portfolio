@@ -54,7 +54,6 @@
 }
 
 .h1cards {
-    font-family: 'montserrat';
     font-weight: 700;
     color: #346a6c;
     font-size: 50px;
@@ -63,7 +62,6 @@
 
 .cardPara{
     padding: 15px;
-    font-family: 'montserrat';
     font-size: 14px;
     min-height: 150px;
     color: gray;
