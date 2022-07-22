@@ -21,7 +21,7 @@ export function Home() {
           Front-End Web Developer | Keen Designer
           </p>
       </div>
-          <a href="https://drive.google.com/file/d/1IQPmpkRlsgBFU6yrgUVYOj4rqEqR5Xp9/view?usp=sharing"><button id="buttonDark">Download CV</button> </a>
+          <a href="https://drive.google.com/file/d/19SdFhg7ZSm5jiMVJaVd4V4JU-QYA365a/view?usp=sharing"><button id="buttonDark">Download CV</button> </a>
   
       </header>
     </div>

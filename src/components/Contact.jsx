@@ -13,7 +13,7 @@ return(
 I would love to hear from you if you think we would work well together.</p>
 </div>
 <div className="btns">
-<a target="_blank" href="https://drive.google.com/file/d/1IQPmpkRlsgBFU6yrgUVYOj4rqEqR5Xp9/view?usp=sharing"><button className="btncontact">Download CV</button></a>
+<a target="_blank" href="https://drive.google.com/file/d/19SdFhg7ZSm5jiMVJaVd4V4JU-QYA365a/view?usp=sharing"><button className="btncontact">Download CV</button></a>
 <a href="mailto:jonnevie@gmail.com"><button className="btncontact">Email Me</button></a>
 
     </div>
